@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .button-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            height: 10%;
+            margin: 0 auto;
+        }
+
+        .go-somewhere {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width: 60%;
+            height: 50%; */
+            margin: 0 auto;
+        }
+
+        .text {
+            color: black;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="containter">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a style="font-family: fantasy; color:blueviolet;" class="navbar-brand" href="#">Pemrograman Web</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto"> <!--Comment-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Tugas Sebelumnya
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://dinoherlentz.github.io/Tugas-I/">Tugas I</a>
+                                <a class="dropdown-item" href="https://dinoherlentz.github.io/Tugas-II/">Tugas II</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col align-self-center">
+                    <h1 class="hai" style="color: blue; font-family: 'Roboto'">Hai! Selamat Datang di</h1> <h1 class="proweb" style="color: aqua; font-family: cursive;">Proweb</h1>
+                    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Berikut adalah beberapa sosial media yang tersedia di platform internet</p>
+                    <!--<a class="btn btn-primary button-center text" href="#" role="button">Mulai Sekarang</a>-->
+                </div>
+                <div class="col d-none d-lg-block d-xl-block">
+                    <img src="sosmed.png" alt="" width="600">
+                </div>
+            </div>
+        </div><br><br><br><br><br>
+
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="youtube.png" class="card-img-top" alt="YouTube Logo">
+                <div class="card-body">
+                    <h5 class="card-title">YouTube</h5>
+                    <p class="card-text">YouTube adalah situs web berbagi video yang memungkinkan pengguna untuk
+                        mengunggah,
+                        menonton, dan berbagi video.</p>
+                    <a href="https://www.youtube.com" class="btn btn-primary go-somewhere">Open YouTube</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="ig.png" class="card-img-top" alt="Instagram Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Instagram</h5>
+                    <p class="card-text">Instagram adalah media sosial yang memungkinkan pengguna untuk berbagi foto,
+                        video,
+                        dan caption.</p>
+                    <a href="https://www.instagram.com" class="btn btn-primary go-somewhere">Open Instagram</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="dc.png" class="card-img-top" alt="Discord Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Discord</h5>
+                    <p class="card-text">Discord adalah aplikasi perpesanan instan dan VoIP (Voice over IP) yang
+                        memungkinkan pengguna untuk berkomunikasi melalui pesan teks, panggilan suara, dan panggilan
+                        video.</p>
+                    <a href="https://www.discord.com" class="btn btn-primary go-somewhere">Open Discord</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="x.png" class="card-img-top" alt="X Logo">
+                <div class="card-body">
+                    <h5 class="card-title">X</h5>
+                    <p class="card-text">X (sebelumnya twitter) adalah situs jejaring sosial yang memungkinkan pengguna
+                        untuk mengirim dan membaca pesan singkat yang disebut tweet.</p>
+                    <a href="https://www.x.com" class="btn btn-primary go-somewhere">Open X</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="reddit.png" class="card-img-top" alt="Reddit Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Reddit</h5>
+                    <p class="card-text">Reddit adalah platform media sosial yang berfungsi sebagai agregator berita
+                        sosial, pemeringkatan konten, dan forum diskusi.</p>
+                    <a href="https://www.reddit.com" class="btn btn-primary go-somewhere">Open Reddit</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="tt.png" class="card-img-top" alt="TikTok Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Tiktok</h5>
+                    <p class="card-text">Tiktok adalah media sosial dan platform video musik yang memungkinkan pengguna
+                        untuk membuat dan membagikan video pendek.</p>
+                    <a href="https://www.tiktok.com" class="btn btn-primary go-somewhere">Open Tiktok</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
